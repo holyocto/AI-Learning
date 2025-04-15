@@ -1,0 +1,58 @@
+
+=== 텐서와 변수 정보 출력 ===
+
+1. 데이터셋 정보:
+학습 데이터셋 크기: 60000
+테스트 데이터셋 크기: 10000
+
+2. 배치 정보:
+배치 크기: 64
+이미지 텐서 shape: torch.Size([64, 1, 28, 28])
+레이블 텐서 shape: torch.Size([64])
+이미지 텐서 타입: torch.float32
+레이블 텐서 타입: torch.int64
+이미지 텐서 값 범위: [0.000, 1.000]
+
+3. 모델 파라미터 정보:
+
+fc1.weight:
+Shape: torch.Size([256, 784])
+타입: torch.float32
+값 범위: [-1.149, 1.023]
+
+fc1.bias:
+Shape: torch.Size([256])
+타입: torch.float32
+값 범위: [-0.188, 0.213]
+
+fc2.weight:
+Shape: torch.Size([10, 256])
+타입: torch.float32
+값 범위: [-0.937, 0.580]
+
+fc2.bias:
+Shape: torch.Size([10])
+타입: torch.float32
+값 범위: [-0.051, 0.053]
+
+4. 손실 함수 정보:
+손실 함수: CrossEntropyLoss()
+
+5. 옵티마이저 정보:
+옵티마이저: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.001
+    maximize: False
+    weight_decay: 0
+)
+학습률: 0.001
+
+6. 디바이스 정보:
+사용 중인 디바이스: cpu
