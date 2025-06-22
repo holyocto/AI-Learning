@@ -1,0 +1,6 @@
+train: data/kimchi/train/images
+val: data/kimchi/val/images
+test: data/kimchi/test/images
+
+nc: 5
+names: ['pakimchi', 'chonggakkimchi', 'kkakdugi', 'nabak_kimchi', 'gat_kimchi']
